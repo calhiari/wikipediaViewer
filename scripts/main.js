@@ -1,6 +1,6 @@
 $(document).ready(function()
 {
-	$("#searchBut").on("click", function()
+	$("#searchBut").on("click touch", function()
 	{
 		var strQuery = document.querySelector("#searchQuery").value.split(/\s/g).join("%20");
 
